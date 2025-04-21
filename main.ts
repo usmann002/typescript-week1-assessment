@@ -37,7 +37,7 @@ if(employees.intern == true){
 }
 
 //enum
-enum projectStatus : ["pending","InProgress", "completed" ];
+enum projectStatus {"pending","InProgress", "completed" };
 
 //
 interface Project<T>{
